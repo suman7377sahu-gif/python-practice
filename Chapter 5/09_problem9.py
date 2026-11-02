@@ -1,2 +1,2 @@
 # 9. Can you change the values inside a list which is contained in set S?
-s = {8, 7, 12, "Harry", [1,2]}# it cannot be possible because in python it is not allowed that a list can be an element of a set whether it is mutable or immutable. It will give an error as unhashable type: 'list'.
+# s = {8, 7, 12, "Harry", [1,2]}# it cannot be possible because in python it is not allowed that a list can be an element of a set whether it is mutable or immutable. It will give an error as unhashable type: 'list'.
