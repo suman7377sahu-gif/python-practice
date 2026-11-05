@@ -1,30 +1,34 @@
 # 🐍 Python Practice — The Ultimate Python Course
 
-This repository tracks my personal Python learning journey as I follow **CodeWithHarry's The Ultimate Python Course**.
+This repository documents my Python learning journey while following **CodeWithHarry's The Ultimate Python Course**.
 
-I use this repository to save my solutions to the course's chapter-wise practice sets, practise Python fundamentals, improve my problem-solving skills, and keep track of my progress using Git and GitHub.
+I use it to keep my chapter-wise practice solutions, strengthen my programming fundamentals, improve problem-solving skills, and track my progress with Git and GitHub.
 
-> **Current progress:** Practice sets for Chapters 1–7 are part of my learning progress, with **47 practice problems** planned across these chapters. The latest practice ZIP attached in this conversation still shows Chapters 1–6, so the Chapter 7 files should be checked in the repository before treating the file count as verified. This describes my practice-set progress, not completion of every lesson in the full course.
+> **Current repository snapshot:** Practice files for Chapters 1–8, one Chapter 7 quick quiz, and one standalone Python project are included. There are **55 chapter practice-problem files**, plus the quick quiz and project. This reflects the files present in this repository, not completion of every lesson in the full course.
 
-## 📚 Practice Progress
+## 📊 Learning Progress
 
-| Chapter | Topics practised | Practice files |
+| Section | Main topics | Files |
 |---|---|---:|
-| Chapter 1 | Basic Python programs, output, comments, modules, and introductory exercises | 5 |
-| Chapter 2 | Variables, data types, user input, operators, and basic calculations | 6 |
-| Chapter 3 | Strings, string methods, and escape sequences | 5 |
-| Chapter 4 | Lists, list operations, tuples, and built-in functions | 5 |
-| Chapter 5 | Dictionaries, sets, keys and values, unique elements, mutability, and hashability | 9 |
-| Chapter 6 | Conditional statements, comparisons, logical operators, membership checks, and decision-making | 7 |
-| Chapter 7 | `for` and `while` loops, multiplication tables, prime numbers, sums, factorials, and star patterns | 10 |
-| **Total** | **Practice sets from Chapters 1–7** | **47** |
+| Chapter 1 | Python basics and introductory exercises | 5 |
+| Chapter 2 | Variables, data types, input, and operators | 6 |
+| Chapter 3 | Strings and string operations | 5 |
+| Chapter 4 | Lists and tuples | 5 |
+| Chapter 5 | Dictionaries and sets | 9 |
+| Chapter 6 | Conditional statements and decision-making | 7 |
+| Chapter 7 | Loops and iteration | 10 |
+| Chapter 8 | Functions and recursion | 8 |
+| **Chapter practice files** | **Chapters 1–8** | **55** |
+| Chapter 7 quick quiz | Printing list elements using a `while` loop | 1 |
+| Project 1 | Snake-Water-Gun game | 1 |
+| **Total Python files** | | **57** |
 
-## 🧠 What I'm Practising
+## 🧠 Concepts Practised
 
-### Chapter 1 — Introduction and Basic Python
+### Chapter 1 — Introduction to Python
 - Basic Python syntax and output
 - Comments and introductory exercises
-- Working with modules
+- Working with Python modules
 
 ### Chapter 2 — Variables, Data Types, and Operators
 - Variables and data types
@@ -47,27 +51,45 @@ I use this repository to save my solutions to the course's chapter-wise practice
 - Creating and using dictionaries
 - Accessing dictionary keys and values
 - Working with sets and unique elements
-- Understanding mutable and immutable data types
-- Understanding hashability and why lists cannot be elements of a set
+- Mutable and immutable data types
+- Hashability and why lists cannot be elements of a set
 
-### Chapter 6 — Conditional Expressions
+### Chapter 6 — Conditional Statements
 - Using `if`, `elif`, and `else`
-- Finding the greatest of four numbers
-- Checking pass/fail conditions based on marks
-- Detecting spam comments using keywords
-- Checking username length with `len()`
-- Checking whether a name exists in a list with `in`
-- Assigning grades based on marks
-- Checking whether a post mentions a particular name
+- Comparing values and combining conditions
+- Checking pass/fail conditions and assigning grades
+- Checking string length and list membership
+- Building simple decision-making programs
 
 ### Chapter 7 — Loops
-- Using `for` and `while` loops to repeat instructions
-- Printing multiplication tables in forward and reverse order
-- Filtering names using a condition inside a loop
-- Checking whether a number is prime
-- Calculating the sum of the first `n` natural numbers
-- Calculating a number’s factorial
-- Printing pyramid, triangular, and hollow-square star patterns
+- Using `for` and `while` loops
+- Printing multiplication tables
+- Filtering names with conditions
+- Checking prime numbers
+- Calculating sums and factorials
+- Printing star patterns
+- Quick quiz: printing list elements using a `while` loop
+
+### Chapter 8 — Functions and Recursion
+- Defining and calling functions
+- Passing arguments and returning values
+- Finding the greatest of three numbers
+- Converting Celsius to Fahrenheit and inches to centimetres
+- Using `print()`'s `end` parameter
+- Recursion to calculate the sum of natural numbers
+- Creating patterns and multiplication tables with functions
+- Removing a word from a list and stripping whitespace
+
+## 🚀 Project
+
+### Project 1 — Snake-Water-Gun
+A Python implementation of the Snake-Water-Gun game using concepts such as:
+- `random` module
+- User input
+- Conditional statements
+- Loops and game logic
+
+Project location: `Project 1/main.py`
 
 ## 📁 Repository Structure
 
@@ -117,43 +139,53 @@ python-practice/
 │   ├── 05_problem5.py
 │   ├── 06_problem6.py
 │   └── 07_problem7.py
-└── Chapter 7/
-    ├── 01_problem1.py
-    ├── 02_problem2.py
-    ├── 03_problem3.py
-    ├── 04_problem4.py
-    ├── 05_problem5.py
-    ├── 06_problem6.py
-    ├── 07_problem7.py
-    ├── 08_problem8.py
-    ├── 09_problem9.py
-    └── 10_problem10.py
+├── Chapter 7/
+│   ├── 01_problem1.py
+│   ├── 02_problem2.py
+│   ├── 03_problem3.py
+│   ├── 04_problem4.py
+│   ├── 05_problem5.py
+│   ├── 06_problem6.py
+│   ├── 07_problem7.py
+│   ├── 08_problem8.py
+│   ├── 09_problem9.py
+│   ├── 10_problem10.py
+│   └── quick_quiz.py
+├── Chapter 8/
+│   ├── 01_problem1.py
+│   ├── 02_problem2.py
+│   ├── 03_problem3.py
+│   ├── 04_problem4.py
+│   ├── 05_problem5.py
+│   ├── 06_problem6.py
+│   ├── 07_problem7.py
+│   └── 08_problem8.py
+└── Project 1/
+    └── main.py
 ```
-
-Each Python file contains an individual practice problem solution. The chapter folders make it easier to review concepts and continue with later practice sets.
 
 ## 🛠️ Tools and Technologies
 
-- **Language:** Python
-- **Editor:** Visual Studio Code
+- **Programming language:** Python
+- **Code editor:** Visual Studio Code
 - **Version control:** Git
 - **Code hosting:** GitHub
 
-## 🎯 Learning Goals
+## 🎯 My Learning Goals
 
-- Strengthen my Python fundamentals through regular practice.
-- Understand core data types and data structures.
+- Build a strong foundation in Python programming.
 - Improve logical thinking, debugging, and problem-solving.
-- Build good habits with Git and GitHub.
-- Continue learning the remaining course topics and practice sets.
+- Practise writing reusable code using functions.
+- Continue with the remaining chapters and practice sets in the course.
+- Build more small projects to apply what I learn.
 - Progress to Data Structures and Algorithms (DSA).
-- Build practical projects and explore Data Analytics, Machine Learning, and Generative AI.
+- Explore Data Analytics, Machine Learning, and Generative AI.
 
 ## 📖 Learning Resource
 
-- [CodeWithHarry on YouTube](https://www.youtube.com/@CodeWithHarry)
+- [CodeWithHarry — YouTube](https://www.youtube.com/@CodeWithHarry)
 
-I follow the course for explanations and exercises, then maintain this repository to track my own practice solutions and progress.
+I follow the course for lessons and exercises, then add my own practice work to this repository to record my learning progress.
 
 ## ✅ Progress Checklist
 
@@ -163,17 +195,18 @@ I follow the course for explanations and exercises, then maintain this repositor
 - [x] Chapter 4 practice set
 - [x] Chapter 5 practice set
 - [x] Chapter 6 practice set
-- [x] Chapter 7 practice set
-- [ ] Continue with Chapter 8 and the following practice sets
+- [x] Chapter 7 practice set and quick quiz
+- [x] Chapter 8 practice set
+- [x] Project 1 — Snake-Water-Gun
+- [ ] Continue with the next course chapters and practice sets
 - [ ] Review and improve earlier solutions
-- [ ] Practise additional Python problems
-- [ ] Start building small Python projects
+- [ ] Build more Python projects
 - [ ] Progress to Data Structures and Algorithms
 
-*I will update this README as I add more practice files. The checklist reflects my reported learning progress; the latest ZIP attached in this conversation did not yet contain the Chapter 7 folder, so confirm that folder is committed before relying on the repository tree and file count.*
+*This README is updated according to the files currently present in the repository ZIP. I will keep updating it as I add more practice work and projects.*
 
-## 👨‍💻 About
+## 👨‍💻 About Me
 
-I am a B.Tech Computer Science and Engineering student learning programming step by step. This repository documents my progress as I practise Python and build a foundation for more advanced computer science topics.
+I am a B.Tech Computer Science and Engineering student learning programming step by step. This repository records my progress as I practise Python, strengthen my fundamentals, and work toward more advanced computer science topics.
 
 **Learning consistently. Practising regularly. Improving one problem at a time.** 🚀
