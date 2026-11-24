@@ -1,0 +1,10 @@
+# 11. Write a python program to rename a file to “renamed_by_python.txt”.
+import os 
+
+with open("Chapter 9/old.txt") as f :
+    content = f.read()
+
+with open("Chapter 9/renamed_by_python.txt","w") as f:
+    f.write(content)
+
+os.remove("Chapter 9/old.txt")
