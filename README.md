@@ -1,212 +1,223 @@
 # 🐍 Python Practice — The Ultimate Python Course
 
-This repository documents my Python learning journey while following **CodeWithHarry's The Ultimate Python Course**.
+This repository documents my hands-on Python learning journey while following **CodeWithHarry's The Ultimate Python Course**.
 
-I use it to keep my chapter-wise practice solutions, strengthen my programming fundamentals, improve problem-solving skills, and track my progress with Git and GitHub.
+I use this repository to organize chapter-wise exercises, practise programming concepts, improve problem-solving skills, and build small projects as I learn.
 
-> **Current repository snapshot:** Practice files for Chapters 1–8, one Chapter 7 quick quiz, and one standalone Python project are included. There are **55 chapter practice-problem files**, plus the quick quiz and project. This reflects the files present in this repository, not completion of every lesson in the full course.
+> **Repository snapshot:** This version contains practice work from Chapters 1–13, one Chapter 7 quick quiz, and two Python projects. The progress below is based on files currently included in this repository.
 
 ## 📊 Learning Progress
 
-| Section | Main topics | Files |
-|---|---|---:|
-| Chapter 1 | Python basics and introductory exercises | 5 |
-| Chapter 2 | Variables, data types, input, and operators | 6 |
-| Chapter 3 | Strings and string operations | 5 |
-| Chapter 4 | Lists and tuples | 5 |
-| Chapter 5 | Dictionaries and sets | 9 |
-| Chapter 6 | Conditional statements and decision-making | 7 |
-| Chapter 7 | Loops and iteration | 10 |
-| Chapter 8 | Functions and recursion | 8 |
-| **Chapter practice files** | **Chapters 1–8** | **55** |
-| Chapter 7 quick quiz | Printing list elements using a `while` loop | 1 |
-| Project 1 | Snake-Water-Gun game | 1 |
-| **Total Python files** | | **57** |
+| Section | Practice files | Additional files |
+|---|---:|---:|
+| Chapter 1 | 5 | — |
+| Chapter 2 | 6 | — |
+| Chapter 3 | 5 | — |
+| Chapter 4 | 5 | — |
+| Chapter 5 | 9 | — |
+| Chapter 6 | 7 | — |
+| Chapter 7 | 10 | 1 quick quiz |
+| Chapter 8 | 8 | — |
+| Chapter 9 | 11 | 8 text/data files |
+| Chapter 10 | 6 | — |
+| Chapter 11 | 7 | — |
+| Chapter 12 | 5 | 2 text files |
+| Chapter 13 | 7 | — |
+| **Total** | **91 problem files** | **1 quick quiz + 10 text/data files** |
+
+**Projects:** 2  
+**Python files overall:** 94 (91 chapter exercises, 1 quick quiz, and 2 project files).
 
 ## 🧠 Concepts Practised
 
-### Chapter 1 — Introduction to Python
-- Basic Python syntax and output
-- Comments and introductory exercises
-- Working with Python modules
+The topics below summarize the subjects represented by the exercises in each chapter.
+
+### Chapter 1 — Python Basics
+- Introductory Python syntax and output
+- Basic programming exercises
 
 ### Chapter 2 — Variables, Data Types, and Operators
 - Variables and data types
-- Taking input from users
-- Arithmetic and comparison operators
-- Basic calculations
+- User input and type conversion
+- Operators and basic calculations
 
 ### Chapter 3 — Strings
-- String input and manipulation
-- String methods such as `replace()` and `find()`
-- Escape sequences
+- String operations and manipulation
+- String methods and formatting
 
 ### Chapter 4 — Lists and Tuples
-- Creating and modifying lists
-- Appending and sorting list elements
-- Working with tuples
-- Built-in functions such as `sum()` and `count()`
+- List and tuple operations
+- Working with collections and built-in functions
 
 ### Chapter 5 — Dictionaries and Sets
-- Creating and using dictionaries
-- Accessing dictionary keys and values
-- Working with sets and unique elements
-- Mutable and immutable data types
-- Hashability and why lists cannot be elements of a set
+- Dictionary operations and methods
+- Sets, unique values, and collection behaviour
 
 ### Chapter 6 — Conditional Statements
-- Using `if`, `elif`, and `else`
-- Comparing values and combining conditions
-- Checking pass/fail conditions and assigning grades
-- Checking string length and list membership
-- Building simple decision-making programs
+- `if`, `elif`, and `else`
+- Conditions and decision-making logic
 
 ### Chapter 7 — Loops
-- Using `for` and `while` loops
-- Printing multiplication tables
-- Filtering names with conditions
-- Checking prime numbers
-- Calculating sums and factorials
-- Printing star patterns
-- Quick quiz: printing list elements using a `while` loop
+- `for` and `while` loops
+- Iteration and loop-based problem solving
+- A quick quiz using a `while` loop
 
 ### Chapter 8 — Functions and Recursion
 - Defining and calling functions
-- Passing arguments and returning values
-- Finding the greatest of three numbers
-- Converting Celsius to Fahrenheit and inches to centimetres
-- Using `print()`'s `end` parameter
-- Recursion to calculate the sum of natural numbers
-- Creating patterns and multiplication tables with functions
-- Removing a word from a list and stripping whitespace
+- Parameters, return values, and reusable logic
+- Recursion and function-based exercises
 
-## 🚀 Project
+### Chapter 9 — File I/O
+- Reading from and writing to text files
+- Checking and updating a high score
+- Creating multiplication-table files
+- Renaming, copying, and working with file content
 
-### Project 1 — Snake-Water-Gun
-A Python implementation of the Snake-Water-Gun game using concepts such as:
+### Chapter 10 — Object-Oriented Programming (OOP)
+- Classes and objects
+- Constructors and instance attributes
+- Class attributes and methods
+- Building simple classes such as `Programmer` and `Calculator`
+
+### Chapter 11 — Inheritance and OOP Concepts
+- Inheritance and multilevel inheritance
+- Using `super()`
+- Properties and setters
+- Extending classes and reusing behaviour
+
+### Chapter 12 — Advanced Python Concepts
+- Exception handling
+- `enumerate()`
+- List comprehensions
+- Joining values into strings
+- Working with multiple files
+
+### Chapter 13 — Virtual Environments and Python Practice
+- Creating and working with virtual environments
+- Installing packages in isolated environments
+- String formatting with `format()`
+- Converting lists into strings
+
+## 🚀 Python Projects
+
+### Project 1 — Snake-Water-Gun Game
+A command-line game in which the player competes against the computer.
+
+**Concepts used:**
 - `random` module
-- User input
+- User input and validation
 - Conditional statements
-- Loops and game logic
+- Loops and repeated rounds
+- Score tracking
 
-Project location: `Project 1/main.py`
+**File:** `Projects/Project 1/main.py`
+
+### Project 2 — Number Guessing Game
+A command-line game in which the computer selects a random number and the player tries to guess it.
+
+**Concepts used:**
+- `random.randint()`
+- `while` loops
+- Conditional statements
+- Input validation and `try`/`except`
+- Counting attempts
+
+**File:** `Projects/Project 2/main.py`
 
 ## 📁 Repository Structure
 
 ```text
 python-practice/
 ├── README.md
-├── Chapter 1/
-│   ├── 01_Problem1.py
-│   ├── 02_Problem2.py
-│   ├── 03_Problem3.py
-│   ├── 04_Problem4.py
-│   └── 05_Problem5.py
-├── Chapter 2/
-│   ├── 01_Problem1.py
-│   ├── 02_Problem2.py
-│   ├── 03_Problem3.py
-│   ├── 04_Problem4.py
-│   ├── 05_Problem5.py
-│   └── 06_Problem6.py
-├── Chapter 3/
-│   ├── 01_Problem1.py
-│   ├── 02_Problem2.py
-│   ├── 03_Problem3.py
-│   ├── 04_Problem4.py
-│   └── 05_Problem5.py
-├── Chapter 4/
-│   ├── 01_Problem1.py
-│   ├── 02_Problem2.py
-│   ├── 03_Problem3.py
-│   ├── 04_Problem4.py
-│   └── 05_Problem5.py
-├── Chapter 5/
-│   ├── 01_Problem1.py
-│   ├── 02_Problem2.py
-│   ├── 03_Problem3.py
-│   ├── 04_Problem4.py
-│   ├── 05_Problem5.py
-│   ├── 06_Problem6.py
-│   ├── 07_Problem7.py
-│   ├── 08_Problem8.py
-│   └── 09_problem9.py
-├── Chapter 6/
-│   ├── 01_problem1.py
-│   ├── 02_problem2.py
-│   ├── 03_problem3.py
-│   ├── 04_problem4.py
-│   ├── 05_problem5.py
-│   ├── 06_problem6.py
-│   └── 07_problem7.py
-├── Chapter 7/
-│   ├── 01_problem1.py
-│   ├── 02_problem2.py
-│   ├── 03_problem3.py
-│   ├── 04_problem4.py
-│   ├── 05_problem5.py
-│   ├── 06_problem6.py
-│   ├── 07_problem7.py
-│   ├── 08_problem8.py
-│   ├── 09_problem9.py
-│   ├── 10_problem10.py
-│   └── quick_quiz.py
-├── Chapter 8/
-│   ├── 01_problem1.py
-│   ├── 02_problem2.py
-│   ├── 03_problem3.py
-│   ├── 04_problem4.py
-│   ├── 05_problem5.py
-│   ├── 06_problem6.py
-│   ├── 07_problem7.py
-│   └── 08_problem8.py
-└── Project 1/
-    └── main.py
+├── Chapter practice sets/
+│   ├── Chapter 1/       # 5 Python exercises
+│   ├── Chapter 2/       # 6 Python exercises
+│   ├── Chapter 3/       # 5 Python exercises
+│   ├── Chapter 4/       # 5 Python exercises
+│   ├── Chapter 5/       # 9 Python exercises
+│   ├── Chapter 6/       # 7 Python exercises
+│   ├── Chapter 7/       # 10 exercises + quick_quiz.py
+│   ├── Chapter 8/       # 8 Python exercises
+│   ├── Chapter 9/       # 11 exercises + text files
+│   ├── Chapter 10/      # 6 Python exercises
+│   ├── Chapter 11/      # 7 Python exercises
+│   ├── Chapter 12/      # 5 Python exercises + text files
+│   ├── Chapter 13/      # 7 Python exercises
+│   └── requirement.txt
+└── Projects/
+    ├── Project 1/
+    │   └── main.py
+    └── Project 2/
+        └── main.py
 ```
 
 ## 🛠️ Tools and Technologies
 
-- **Programming language:** Python
-- **Code editor:** Visual Studio Code
+- **Language:** Python
+- **Editor:** Visual Studio Code
 - **Version control:** Git
 - **Code hosting:** GitHub
+- **Environment management:** Python virtual environments (`venv`)
+- **Packages:** pip
 
-## 🎯 My Learning Goals
+## ▶️ Running the Programs
 
-- Build a strong foundation in Python programming.
+1. Clone or download this repository.
+2. Open the repository folder in Visual Studio Code or a terminal.
+3. Run a Python file using:
+
+```bash
+python path/to/file.py
+```
+
+For example:
+
+```bash
+python "Projects/Project 2/main.py"
+```
+
+Some exercises use text files and relative paths. Run those programs from the appropriate working directory, or adjust the file path if needed.
+
+## 🎯 Learning Goals
+
+- Strengthen Python fundamentals through regular coding practice.
 - Improve logical thinking, debugging, and problem-solving.
-- Practise writing reusable code using functions.
-- Continue with the remaining chapters and practice sets in the course.
-- Build more small projects to apply what I learn.
-- Progress to Data Structures and Algorithms (DSA).
-- Explore Data Analytics, Machine Learning, and Generative AI.
+- Become comfortable with functions, file handling, and OOP.
+- Build more projects that apply concepts to practical problems.
+- Continue practising Data Structures and Algorithms (DSA).
+- Gradually progress toward Machine Learning and Generative AI engineering.
 
-## 📖 Learning Resource
+## 📚 Learning Resource
 
 - [CodeWithHarry — YouTube](https://www.youtube.com/@CodeWithHarry)
 
-I follow the course for lessons and exercises, then add my own practice work to this repository to record my learning progress.
+The course provides the lessons and exercises; this repository records my practice and implementation work.
 
 ## ✅ Progress Checklist
 
-- [x] Chapter 1 practice set
-- [x] Chapter 2 practice set
-- [x] Chapter 3 practice set
-- [x] Chapter 4 practice set
-- [x] Chapter 5 practice set
-- [x] Chapter 6 practice set
-- [x] Chapter 7 practice set and quick quiz
-- [x] Chapter 8 practice set
-- [x] Project 1 — Snake-Water-Gun
-- [ ] Continue with the next course chapters and practice sets
-- [ ] Review and improve earlier solutions
-- [ ] Build more Python projects
-- [ ] Progress to Data Structures and Algorithms
+- [x] Chapter 1 practice files
+- [x] Chapter 2 practice files
+- [x] Chapter 3 practice files
+- [x] Chapter 4 practice files
+- [x] Chapter 5 practice files
+- [x] Chapter 6 practice files
+- [x] Chapter 7 practice files and quick quiz
+- [x] Chapter 8 practice files
+- [x] Chapter 9 practice files
+- [x] Chapter 10 practice files
+- [x] Chapter 11 practice files
+- [x] Chapter 12 practice files
+- [x] Chapter 13 practice files
+- [x] Project 1 — Snake-Water-Gun Game
+- [x] Project 2 — Number Guessing Game
+- [ ] Review and refactor earlier solutions
+- [ ] Add more independent, practical Python projects
+- [ ] Continue strengthening DSA and problem-solving
 
-*This README is updated according to the files currently present in the repository ZIP. I will keep updating it as I add more practice work and projects.*
+*This README reflects the repository snapshot and will be updated as more practice work and projects are added.*
 
 ## 👨‍💻 About Me
 
-I am a B.Tech Computer Science and Engineering student learning programming step by step. This repository records my progress as I practise Python, strengthen my fundamentals, and work toward more advanced computer science topics.
+I am a B.Tech Computer Science and Engineering student building my programming skills step by step. This repository is a record of my Python practice, the concepts I am learning, and the projects I build along the way.
 
 **Learning consistently. Practising regularly. Improving one problem at a time.** 🚀
